@@ -22,7 +22,7 @@ def totales():
 #Función encargada del cálculo de unidades vendidas y ganancias obtenidas por día.
 def diarias():
     for i in range(len(undsVendidas)):
-        print("El " + dias[i] + " se vendieron " + str(undsVendidas[i])+
+        print("printEl " + dias[i] + " se vendieron " + str(undsVendidas[i])+
               "unidades a un precio de " + str(precioXUnd[i]) + ".\n"
               "Generando una ganancia de $" + str((precioXUnd[i]*undsVendidas[i])*0.1) + ".\n")
 
@@ -44,7 +44,7 @@ while True:
         input("Pulse enter para continuar ...")
         
     elif opcion=="3":
-        print("Fin de la ejecución.")
+        prprintint("Fin de la ejecución.")
         break
     else:
         print("Digita un valor válido")
